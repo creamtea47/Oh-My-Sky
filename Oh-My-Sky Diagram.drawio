@@ -1,1 +1,72 @@
-<mxfile host="app.diagrams.net" modified="2020-08-12T08:06:09.030Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.2 Safari/605.1.15" version="13.6.2" etag="H0d9-t7MAHqxmdRklkfJ" type="github"><diagram id="-QKKah29AuEtUK9YuD70">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-08-13T12:44:57.085Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.2 Safari/605.1.15" etag="v1aRmoXLyuxlfd4sPzoC" version="13.6.2" type="github">
+  <diagram id="-QKKah29AuEtUK9YuD70" name="第 1 页">
+    <mxGraphModel dx="1290" dy="832" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="h6hIqeaLNwdwjISM6I2L-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=70;exitDy=23;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitPerimeter=0;" parent="1" source="p6DB4f3kanrCkTEYLliJ-7" target="h6hIqeaLNwdwjISM6I2L-8" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130" y="625" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p6DB4f3kanrCkTEYLliJ-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="75" y="600" as="targetPoint" />
+            <mxPoint x="75" y="600" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h6hIqeaLNwdwjISM6I2L-8" value="index.js" style="html=1;" parent="1" vertex="1">
+          <mxGeometry x="190" y="600" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="h6hIqeaLNwdwjISM6I2L-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;" parent="1" source="h6hIqeaLNwdwjISM6I2L-15" target="h6hIqeaLNwdwjISM6I2L-23" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h6hIqeaLNwdwjISM6I2L-15" value="/bin/guide.js" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="1" vertex="1">
+          <mxGeometry x="200" y="520" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="h6hIqeaLNwdwjISM6I2L-16" value="callback" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0.311;entryY=0.967;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="h6hIqeaLNwdwjISM6I2L-15" edge="1">
+          <mxGeometry x="0.1925" y="10" relative="1" as="geometry">
+            <mxPoint x="228" y="601" as="sourcePoint" />
+            <Array as="points" />
+            <mxPoint x="10" y="10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h6hIqeaLNwdwjISM6I2L-17" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=1;exitY=0.95;" parent="1" source="h6hIqeaLNwdwjISM6I2L-15" edge="1">
+          <mxGeometry x="0.6768" y="-10" relative="1" as="geometry">
+            <mxPoint x="290" y="598" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="290" y="590" />
+            </Array>
+            <mxPoint x="10" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h6hIqeaLNwdwjISM6I2L-20" value="/bin/sky_Netease_init.js" style="html=1;" parent="1" vertex="1">
+          <mxGeometry x="510" y="510" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="h6hIqeaLNwdwjISM6I2L-23" value="Select&amp;nbsp;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffc0;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="354" y="515" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="h6hIqeaLNwdwjISM6I2L-24" value="netease" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="h6hIqeaLNwdwjISM6I2L-23" target="h6hIqeaLNwdwjISM6I2L-20" edge="1">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="534" y="530" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h6hIqeaLNwdwjISM6I2L-25" value="googleplay" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;entryX=0.38;entryY=-0.06;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="h6hIqeaLNwdwjISM6I2L-23" target="h6hIqeaLNwdwjISM6I2L-27" edge="1">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="400" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h6hIqeaLNwdwjISM6I2L-27" value="/bin/sky_PlayStore_init.js" style="html=1;" parent="1" vertex="1">
+          <mxGeometry x="420" y="620" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="p6DB4f3kanrCkTEYLliJ-1" value="&lt;h1&gt;Oh-My-Sky&lt;/h1&gt;&lt;div style=&quot;font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 13px ; line-height: 20px&quot;&gt;&lt;div&gt;// ===================================&lt;/div&gt;&lt;div&gt;// Oh-My-Sky&lt;/div&gt;&lt;div&gt;// Project creation date：2020/08/12&lt;/div&gt;&lt;div&gt;// ===================================&lt;/div&gt;&lt;div&gt;// Attention：&lt;/div&gt;&lt;div&gt;// 1.To keep your system secure,&lt;/div&gt;&lt;div&gt;//   We don&#39;t do hacks, modify &quot;mods&quot;, or change game features,&lt;/div&gt;&lt;div&gt;//   even future versions&lt;/div&gt;&lt;div&gt;// 2.You might know，This scirpt against the game&#39;s design philosophy, &lt;/div&gt;&lt;div&gt;//   so I hope you guys please keep it LOW-KEY.&lt;/div&gt;&lt;div&gt;//   (https://thatgamecompany.helpshift.com/a/sky-children-of-the-light/?s=code-of-conduct&amp;amp;f=can-i-use-third-party-software-like-mods-or-bots)&lt;/div&gt;&lt;div&gt;// 2.Tested only on iPhone 6 and iPhone 11&lt;/div&gt;&lt;div&gt;// 3.This script is completely free and you can sponsor us.&lt;/div&gt;&lt;div&gt;// ===================================&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="30" width="620" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="p6DB4f3kanrCkTEYLliJ-7" value="Oh-My-Sky.at" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="560" width="90" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
