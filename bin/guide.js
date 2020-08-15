@@ -1,4 +1,3 @@
-    type: CONTROLLER_TYPE.PICKER, 
 console.log(">>>>> [guide.js] Loading script")
 const { dialog } = at
 const { call_skyNetease_init } = require("./bin/skyNetease_init.js")
