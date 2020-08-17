@@ -1,6 +1,6 @@
 console.log(">>>>> [guide.js] Loading script")
-const { dialog } = at
-const { call_skyNetease_init } = require("./bin/skyNetease_init.js")
+const { dialog,stop } = at
+const { module_SkyNetease_init } = require("./bin/skyNetease_init.js")
 const content_Title = { type: CONTROLLER_TYPE.LABEL, text: "Sky Helper Guide" }
 const content_AppPicker = {
     type: CONTROLLER_TYPE.PICKER,
@@ -32,10 +32,11 @@ function method_Guide_Welcome() {
                 case "国服":
                     console.log(">>>>> Return string:\nresult->%s\ncontent_AppPicker->%s",
                         result, content_AppPicker.value)
-                    call_skyNetease_init();
+                    module_SkyNetease_init();
                     break;
                 case "国际服内测":
                     alert("尚未适配")
+                    stop(); 
                     break;
             }
             break;
@@ -48,10 +49,10 @@ function method_Guide_Welcome() {
             break;
     }
 }
-function run_module_guide() {
+function module_Guide() {
     method_Guide_Welcome();
 }
 console.log(">>>>> [guide.js] Preparing modules...")
 module.exports = {
-    run_module_guide
+    module_Guide
 }

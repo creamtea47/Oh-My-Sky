@@ -42,11 +42,11 @@ function method_findIndex_Btn_Play() {
 
 }
 console.log(">>>>> [sky-netease_init] Loading script")
-function call_skyNetease_init() {
+function module_SkyNetease_init() {
     console.log(">>>>> [sky-netease_init] Loading script")
     method_appRun()
     method_findIndex_Btn_Play()
 }
 module.exports = {
-    call_skyNetease_init
+    module_SkyNetease_init
 }
